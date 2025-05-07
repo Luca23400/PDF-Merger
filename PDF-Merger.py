@@ -13,7 +13,7 @@ def create_pdf():
     pdf1 = entry_pdf1.get()
     pdf2 = entry_pdf2.get()
     #outPutPath = os.path.join(os.path.expanduser("~"), "Desktop", "MergedPDF.pdf")
-    outPutPath = ""
+    outPutPath = "C:\\Users\\lucab\\OneDrive\\Desktop\\mergedPDF.pdf"
     pdfList = [f"{pdf1}", f"{pdf2}"]
     merge_pdfs(pdfList,outPutPath)
     print(f"Neues PDF wird erstellt aus: {pdf1} und {pdf2}")
